@@ -1,0 +1,19 @@
+Target dependency graph (7 targets)
+FBSnapshotTestCase in Pods
+UMDevice in Pods
+UMCommon in Pods, depends on:
+UMDevice in Pods (explicit)
+UMShare in Pods, depends on:
+UMCommon in Pods (explicit)
+UMShareTool in Pods, depends on:
+UMCommon in Pods (explicit)
+UMDevice in Pods (explicit)
+UMShare in Pods (explicit)
+Pods-UMShareTool_Example in Pods, depends on:
+UMCommon in Pods (explicit)
+UMDevice in Pods (explicit)
+UMShare in Pods (explicit)
+UMShareTool in Pods (explicit)
+Pods-UMShareTool_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-UMShareTool_Example in Pods (explicit)

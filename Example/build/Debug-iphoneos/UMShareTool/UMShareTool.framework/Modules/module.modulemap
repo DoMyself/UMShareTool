@@ -1,0 +1,6 @@
+framework module UMShareTool {
+  umbrella header "UMShareTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

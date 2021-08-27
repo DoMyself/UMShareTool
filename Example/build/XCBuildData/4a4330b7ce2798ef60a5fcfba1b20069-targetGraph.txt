@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+UMDevice in Pods
+UMCommon in Pods, depends on:
+UMDevice in Pods (explicit)
+UMShare in Pods, depends on:
+UMCommon in Pods (explicit)
+UMShareTool in Pods, depends on:
+UMCommon in Pods (explicit)
+UMDevice in Pods (explicit)
+UMShare in Pods (explicit)

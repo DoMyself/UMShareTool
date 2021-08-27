@@ -1,0 +1,68 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UMCommon (7.3.3):
+    - UMDevice
+  - UMDevice (2.0.3)
+  - UMShare/Core (6.10.3):
+    - UMCommon
+  - UMShare/Social/QQ (6.10.3):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedQQ
+  - UMShare/Social/ReducedQQ (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedWeChat (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.3):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/Social/WeChat (6.10.3):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedWeChat
+  - UMShare/UI (6.10.3):
+    - UMCommon
+    - UMShare/Core
+  - UMShareTool (1.0.0):
+    - UMCommon (~> 7.3.3)
+    - UMDevice (~> 2.0.3)
+    - UMShare/Social/QQ
+    - UMShare/Social/Sina
+    - UMShare/Social/WeChat
+    - UMShare/UI
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UMShareTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - UMCommon
+    - UMDevice
+    - UMShare
+
+EXTERNAL SOURCES:
+  UMShareTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UMCommon: cf19d0137f91792f181d71f328d5469e1fbf538a
+  UMDevice: 3a968a5ba34067b73cdb5bcc12a885b0772237e0
+  UMShare: a3f9cb2d3ece67edd2c58331bd89bfffb289782b
+  UMShareTool: 5f167c3048d8cb177d585de3c03c0a44b0d6e40b
+
+PODFILE CHECKSUM: edccdb5231efa5ec3902bf7b579bb9f4156bbc5a
+
+COCOAPODS: 1.10.1
