@@ -21,8 +21,7 @@ pod 'UMShareTool'
 ```
 
 ## Author
-
-13235661527, 2434783536@qq.com
+ 2434783536@qq.com
 
 ## License
 
